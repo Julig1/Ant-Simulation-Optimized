@@ -79,9 +79,3 @@ This will execute the simulation with Cython-based optimizations, speeding up ke
 2. **Precomputed Frames**: Simulation steps are pre-calculated and stored as frames for faster playback.
 3. **Cython**: Key sections of the code are accelerated using Cython, speeding up the simulation significantly, especially in the pheromone calculation and movement logic.
 
----
-
-## Contributing
-
-Feel free to contribute by submitting issues or pull requests. Whether it's improving performance, fixing bugs, or adding new features, all contributions are welcome!
-
