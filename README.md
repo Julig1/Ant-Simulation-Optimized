@@ -51,7 +51,7 @@ This repository simulates ant behavior using **Pygame** for visualization. It ex
 To run the simulation in real-time, simply execute the following:
 
 ```bash
-python ant_simulation_live.py
+python ants_default_live.py
 ```
 
 This will run the simulation live, with ants moving, leaving pheromone trails, and searching for food in real-time.
@@ -61,7 +61,7 @@ This will run the simulation live, with ants moving, leaving pheromone trails, a
 For performance optimization, precompute all frames and display them as an animation. This approach is ideal for systems with limited processing power:
 
 ```bash
-python ant_simulation_precalc.py
+python ants_pre_calc.py
 ```
 
 This will generate the frames first and then play them as a pre-recorded animation.
@@ -71,7 +71,7 @@ This will generate the frames first and then play them as a pre-recorded animati
 For large-scale simulations, using Cython optimizations can significantly improve performance. Ensure you have Cython installed, then run:
 
 ```bash
-python ant_simulation_cython.py
+python ants_cython.py
 ```
 
 This will execute the simulation with Cython-based optimizations, speeding up key calculations like pheromone updates and ant movement.
@@ -98,8 +98,3 @@ This will execute the simulation with Cython-based optimizations, speeding up ke
 
 Feel free to contribute by submitting issues or pull requests. Whether it's improving performance, fixing bugs, or adding new features, all contributions are welcome!
 
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
