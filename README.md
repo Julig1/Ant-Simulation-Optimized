@@ -26,22 +26,9 @@ This repository simulates ant behavior using **Pygame** for visualization. It ex
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ant-colony-simulation.git
-   cd ant-colony-simulation
+   git clone https://github.com/Julig1/Ant-Simulation-Optimized.git
+   cd Ant-Simulation-Optimized
    ```
-
-2. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   Alternatively, if you're using Cython for optimization:
-
-   ```bash
-   pip install cython
-   ```
-
 ---
 
 ## Usage
